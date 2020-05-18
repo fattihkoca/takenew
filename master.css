@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+* {
+    cursor: default;
+    border: none;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+#takenew {
+    margin: calc(50vh - 28px) auto 0;
+    width: 300px;
+    height: 56px;
+    text-indent: -1000px;
+}
+
+.sprite {
+    background-image: url(sprite.svg);
+    background-repeat: no-repeat;
+}
+
+.lt_ie9 .sprite {
+    background-image: url(sprite.png);
+}
